@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){a(window).scroll(function(){var n=a(this).scrollTop(),o=a(".navbar-default"),r="navbar-animate";n>200?o.addClass(r):o.removeClass(r)})});
