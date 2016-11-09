@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/profile.png" alt=""> -->
+
                     <div class="intro-text">
                         <span class="name"><?php bloginfo('name'); ?></span>
                         <hr class="star-light">
@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">  <!-- Star, font-awesome?? -->
+                    <hr class="star-primary">
                 </div>
             </div>
 
@@ -36,11 +36,9 @@
 
                  ?>
 
-                <div class="col-sm-4 tile">  <!-- apply styling ala portfolio-item -->
-                  <!-- <h3>The Basic Modal</h3> -->
-                  <!-- <h3>Replace #portfolioModal with new id</h3> -->
+                <div class="col-sm-4 tile">
                   <a href="#projectModal<?php echo $i; ?>"
-                  data-toggle="modal" class="tile-link"> <!-- Toggle modal on <a> click -->
+                  data-toggle="modal" class="tile-link">
                     <div class="overlay">
                       <div class="overlay-content">
                         <?php the_title(); ?>
@@ -68,7 +66,7 @@
             <?php
 
             $args = array(
-                'page_id' => '50',
+                'page_id' => '68',
             );
 
             $wp_query = new WP_Query($args);
@@ -142,12 +140,11 @@
     if(have_posts()) : while (have_posts()) : the_post();
 
     ?>
-    <!-- Replace portfolio-modal class?--> <!-- Replace id--> <!-- GENNEMGÅ ALLE KLASSER-->
     <div class="portfolio-modal modal fade" id="projectModal<?php echo $i; ?>" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"> <!-- Replace close-modal -->
-          <div class="lr">  <!-- Hvad sker der her? -->
-            <div class="rl"> <!-- Hvad sker der her? -->
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
             </div>
           </div>
         </div>
@@ -171,7 +168,7 @@
                                         </strong>
                                     </li>
                 </ul>
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>   <!-- Hvad sker der her? Replace fa-->
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
               </div>
             </div>
           </div>

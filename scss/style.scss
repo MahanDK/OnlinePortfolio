@@ -237,13 +237,13 @@ footer{
   box-shadow: none;
   border: none;
   min-height: 100%;
-  // padding: 100px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
 }
+
 #projects img {
   margin-bottom: 30px;
 }
@@ -280,9 +280,7 @@ footer{
   background-color: #2C3E50;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  /* IE 9 */
   -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
   z-index: 1052;
 }
 .portfolio-modal .modal-backdrop {
@@ -304,14 +302,8 @@ footer{
 	padding-right: 5%;
 	}
 
-// #projects .img-responsive{
-//   &:hover{
-//     opacity: 0.5;
-//   }
-// }
-
 input.pass_sumbit{
-  color: #ffffff;
+  color: $white;
   background: $trim;
   line-height: 1.3333333;
   border-radius: 6px;

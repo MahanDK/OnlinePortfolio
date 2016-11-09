@@ -1,12 +1,4 @@
-<!-- http://1stwebdesigner.com/php-contact-form-html/ -->
-<!-- https://www.youtube.com/watch?v=83fi4tGcrlM -->
 <?php
-  // $name = $_POST['name'];
-  // $email = $_POST['email'];
-  // $message = $_POST['message'];
-
-
-
   $name = $_POST['name'];
   $email = $_POST['email'];
   $message = $_POST['message'];

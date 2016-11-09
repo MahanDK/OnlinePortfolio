@@ -7,7 +7,7 @@
                         <h3>Find me</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://www.linkedin.com/in/martin-hansen-35476012b?trk=nav_responsive_tab_profile" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/martin-hansen-35476012b?trk=nav_responsive_tab_profile" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
                                 <a href="https://github.com/MahanDK" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-git"></i></a>
