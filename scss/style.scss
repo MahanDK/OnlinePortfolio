@@ -46,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $font-w;
 }
 
+.check{
+  display: none;
+}
+
 
 // Header
 // ----------------------------------------------
@@ -140,13 +144,6 @@ section{
       color: $white;
       background: $secondary;
   }
-
-  //OBSOLETE???
-  // a, a:hover, a:focus, a:active, a.active {
-  //     outline: 0;
-  //     // color: $first;
-  //     color: red;
-  // }
 }
 
 

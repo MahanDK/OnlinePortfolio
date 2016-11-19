@@ -5,7 +5,6 @@ jQuery(document).ready(function($) {
     var nav = $('.navbar-default');
     var navAni = 'navbar-animate';
 
-
     if(scroll > 200){                   // Scrolled down
       nav.addClass(navAni);
     }

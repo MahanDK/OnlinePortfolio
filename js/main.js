@@ -5,7 +5,6 @@ jQuery(document).ready(function($) {
     var nav = $('.navbar-default');
     var navAni = 'navbar-animate';
 
-
     if(scroll > 200){                   // Scrolled down
       nav.addClass(navAni);
     }
@@ -17,9 +16,8 @@ jQuery(document).ready(function($) {
   });
 });
 
-jQuery(document).ready(function($) {
-  $(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
+jQuery(document).ready(function() {
+  jQuery('.portfolio-modal').on('hidden.bs.modal', function (e) {
+  jQuery('.portfolio-modal iframe').attr("src", jQuery(".portfolio-modal  iframe").attr("src"));
+  });
 });

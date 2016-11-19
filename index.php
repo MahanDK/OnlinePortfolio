@@ -97,10 +97,9 @@
           </div>
         </div>
 
-
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
-            <form id="contact-form" method="post" action="wp-content/themes/271016/contact.php" role="form">
+            <form id="contact-form" method="post" action="wp-content/themes/OnlinePortfolio/contact.php" role="form">
 
               <div class="form-group">
                 <label for="form_name">Name</label>
@@ -111,6 +110,8 @@
                 <label for="form_name">Email Address</label>
                 <input type="email" class="form-control" placeholder="Email Address" id="email" name="email" required data-validation-required-message="Please enter your email address.">
               </div>
+
+              <p class="check">Leave this field empty<input type="text" name="url"></p>
 
               <div class="form-group">
                 <label for="form_name">Message</label>
@@ -123,13 +124,11 @@
                 </div>
               </div>
 
-
             </form>
           </div>
         </div>
       </div>
     </section>
-
 
 
     <!-- Portfolio Modals -->
@@ -153,11 +152,11 @@
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
                 <h2><?php the_title(); ?></h2>
-                <hr class="star-primary"> <!-- Horizontal line, font-awesome? -->
+                <hr class="star-primary">
                 <p>
                   <?php the_content(); ?>
                 </p>
-                <ul class="list-inline iortem-details"> <!-- Hvad sker der her? -->
+                <ul class="list-inline iortem-details">
 
                                     <li>Date:
                                         <strong><a href="http://startbootstrap.com"><?php the_time('M Y'); ?></a>
